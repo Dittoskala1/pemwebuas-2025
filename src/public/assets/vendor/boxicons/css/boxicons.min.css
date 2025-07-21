@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'boxicons';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/boxicons.woff2') format('woff2'),
+         url('../fonts/boxicons.woff') format('woff');
+  }
+  
+  .bx {
+    font-family: 'boxicons' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.2rem;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .bx-chevron-right:before {
+    content: "\ea50";
+  }
+  .bxl-twitter:before {
+    content: "\e982";
+  }
+  .bxl-facebook:before {
+    content: "\e901";
+  }
+  .bxl-instagram:before {
+    content: "\e90e";
+  }
+  .bxl-linkedin:before {
+    content: "\e912";
+  }
+  
